@@ -6,7 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **GitHub**: https://github.com/HanaMLiu/tic-tac-toe
 - **Default branch**: `main` — tracked against `origin/main`
-- Push changes with `git push`
+
+## Git Workflow
+
+After every meaningful change, commit and push immediately so work is never lost:
+
+```
+git add <files>
+git commit -m "concise description of what changed and why"
+git push
+```
+
+Commit after each logical unit of work — a new feature, a bug fix, a config change. Keep messages specific (e.g. `"Fix win detection for diagonal lines"` not `"update stuff"`). Never batch unrelated changes into one commit.
 
 ## Running the Game
 
