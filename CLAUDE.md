@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repository
+
+- **GitHub**: https://github.com/HanaMLiu/tic-tac-toe
+- **Default branch**: `main` — tracked against `origin/main`
+- Push changes with `git push`
+
 ## Running the Game
 
 Open `tictactoe.html` directly in any web browser. There is no build step, server, or dependencies.
